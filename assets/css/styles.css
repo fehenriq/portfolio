@@ -218,9 +218,9 @@ img {
 }
 .home__img {
     position: absolute;
-    right: 0;
+    right: 2px;
     bottom: 0;
-    width: 295px;
+    width: 300px;
 }
 .home__img img {
     border-radius: 0.5rem;
