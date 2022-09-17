@@ -5,7 +5,7 @@ const showMenu = (toggleId, navId) =>{
 
     if(toggle && nav){
         toggle.addEventListener('click', ()=>{
-            nav.classList.toggle('show')
+            nav.classList.toggle('show');
         })
     }
 }
@@ -55,3 +55,8 @@ sr.reveal('.work__img',{interval: 200});
 
 /*SCROLL CONTACT*/
 sr.reveal('.contact__input',{interval: 200}); 
+
+/*DARK MODE BUTTON*/
+document.querySelector("#btn").addEventListener("click", () => {
+    document.body.classList.toggle("dark-mode")
+})
