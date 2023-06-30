@@ -343,23 +343,23 @@ img {
 }
 
 .skills__python {
+  width: 90%;
+}
+
+.skills__django {
   width: 85%;
 }
 
-.skills__postgresql {
-  width: 70%;
-}
-
 .skills__html {
-  width: 90%;
+  width: 80%;
 }
 
 .skills__css {
-  width: 90%;
+  width: 80%;
 }
 
 .skills__js {
-  width: 75%;
+  width: 80%;
 }
 
 .skills__img {
